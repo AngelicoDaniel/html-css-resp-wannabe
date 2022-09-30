@@ -130,7 +130,7 @@ img {
 
  /* TABLET */
 
- @media (min-width: 768px) {
+ @media (max-width: 768px) {
     
     .container {
         width: 100%;
@@ -143,4 +143,16 @@ img {
         width: 80%;
         margin: auto;
     }
+ }
+
+ /* MOBILE */
+
+ @media (max-width: 480px) {
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+  
  }
